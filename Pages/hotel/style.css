@@ -38,12 +38,175 @@
 
 }
 
+#block2 {
+	background: #032b22;
+	height: 100%;
+
+	& p {
+		color: white;
+		font-family: "Rajdhani", sans-serif;
+	}
+
+	h2 {
+		color: #40ffb5;
+		font-family: "Elsie Swash Caps", serif;
+		font-size: 3rem;
+	}
+
+	img {
+		width: 100%;
+		clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+	}
+
+}
+
+#block3 {
+	background: #ffafda;
+	height: 100%;
+
+	& h1 {
+		font-family: "Elsie Swash Caps", serif;
+	}
+
+	& p {
+		font-family: "Rajdhani", sans-serif;
+		text-align: center;
+		margin-top: 0;
+	}
+
+	& h5 {
+		font-family: "Elsie Swash Caps", serif;
+		text-align: center;
+		font-size: 2rem;
+	}
+
+}
+
+.mycard {
+	width: 33%;
+	padding: 2rem;
+
+	img {
+		width: 100%;
+		height: 60%;
+		margin-bottom: 1rem;
+	}
+
+}
+
+#block4 {
+	& h2 {
+		color: #00634d;
+		font-family: "Elsie Swash Caps", serif;
+		font-size: 2.75rem;
+	}
+
+	& p {
+		font-family: "Rajdhani", sans-serif;
+	}
+
+	& img {
+		width: 100%;
+		clip-path: polygon(0 30%, 50% 1%, 100% 30%, 100% 100%, 0 100%);
+	}
+
+}
+
+#block5 {
+	& p {
+		font-family: "Rajdhani", sans-serif;
+	}
+
+	& img {
+		width: 60%;
+		height: 35vh;
+		clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+	}
+
+}
+
+#block6 {
+	background: #00634d;
+
+	& h1,
+	h5 {
+		font-family: "Elsie Swash Caps", serif;
+		color: #40ffb5;
+	}
+
+}
+
+#block7 {
+	& h1 {
+		font-family: "Elsie Swash Caps", serif;
+		color: #00634d;
+	}
+
+}
+
+.notes {
+	width: 100%;
+	height: 50vh;
+	padding: 1rem;
+	background: #f743cf57;
+	margin: 1.5rem;
+	font-weight: bold;
+	font-family: "Rajdhani", sans-serif;
+	clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+
+#block8 {
+	background: #032b22;
+	color: white;
+
+	& h3 {
+		text-transform: uppercase;
+		font-family: "Elsie Swash Caps", serif;
+		text-align: center;
+	}
+
+	& p {
+		margin: 0;
+		font-family: "Rajdhani", sans-serif;
+		text-align: center;
+	}
+
+	& h1 {
+		color: #40ffb5;
+		font-family: "Elsie Swash Caps", serif;
+		font-size: 10rem;
+		text-align: center;
+	}
+
+}
+
 @media screen and (max-width:480px) {
 	#intro {
 		& h1 {
 			font-size: 3.5rem;
 		}
 
+	}
+
+	#acards {
+		flex-direction: column !important;
+	}
+
+	.mycard {
+		width: 100%;
+	}
+
+	#anotes {
+		flex-direction: column !important;
+	}
+
+	.notes {
+		width: 100%;
+		margin: 0;
+	}
+
+	#block8 h1 {
+		font-size: 4rem;
 	}
 
 }
