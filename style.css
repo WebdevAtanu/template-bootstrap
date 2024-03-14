@@ -1,0 +1,21 @@
+#intro {
+	height: 100%;
+	font-family: "Rufina", serif;
+}
+
+.jumbotron {
+	background: #f2f3f3;
+}
+
+.card {
+	width: 100%;
+	font-family: "Rufina", serif;
+}
+
+.card-img-top {
+	height: 25vh;
+}
+
+#foot {
+	font-family: "IM Fell DW Pica SC", serif;
+}
